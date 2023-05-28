@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--Nav BAR  -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bolder fs-3" href="index1.html">SVIT College of Engineering</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <form class="d-flex justify-content-end ms-auto">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+<!-- NavBAR End -->
+
+<div class="container-fluid">
+  <div class="row  ">
+    <div class="col-2  ">
+      <!-- Side bar -->
+
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" >
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Sidebar</span>
+      </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+            Student
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+            Teachrs
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+            Departments
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="#" alt="" width="32" height="32" class="rounded-circle me-2">
+          <strong>mdo</strong>
+        </a>
+        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+          <li><a class="dropdown-item" href="#">New project...</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Sign out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- End Side bar -->
+    </div>
+    <div class="col ">
+     
+          <div class="row">
+            <div class="col">
+              <h4>college Dashboard</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card bg-primary text-white h-100">
+                <div class="card-body py-5">Students</div>
+                <div class="card-footer d-flex">
+                  View Details
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card bg-warning text-dark h-100">
+                <div class="card-body py-5">Assignment</div>
+                <div class="card-footer d-flex">
+                  View Details
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card bg-success text-white h-100">
+                <div class="card-body py-5">Teachers</div>
+                <div class="card-footer d-flex">
+                  View Details
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card bg-danger text-white h-100">
+                <div class="card-body py-5">Exam dates</div>
+                <div class="card-footer d-flex">
+                  View Details
+                  <span class="ms-auto">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-6 ">
+              <div class="card h-100">
+                <div class="card-header">
+                  <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span>
+                  Area Chart Example
+                </div>
+                <div class="card-body">
+                  <canvas class="chart" width="400" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card h-100">
+                <div class="card-header">
+                  <span class=""><i class="bi bi-bar-chart-fill"></i></span>
+                  Area Chart Example
+                </div>
+                <div class="card-body">
+                  <canvas class="chart" width="400" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>   
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.2/dist/chart.min.js"></script>
+  </body>
+  <script>
+    const charts = document.querySelectorAll(".chart");
+    charts.forEach(function (chart) {
+    var ctx = chart.getContext("2d");
+    var myChart = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+      datasets: [
+        {
+          label: "# of Votes",
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: [
+            "red",
+            "Blue",
+            "Yellow",
+            "Green",
+            "Purple",
+            "Orange",
+          ],         
+        },
+      ],
+    },
+  
+  });
+});
+  </script>
+</html>
